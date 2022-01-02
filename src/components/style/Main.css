@@ -8,6 +8,7 @@
 .aboutme img {
     width: 200px;
     height: 200px;
+    margin-bottom: 50px;
 }
 
 .aboutme .text {
@@ -54,7 +55,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .aboutme {
         width: 80%;
     }
