@@ -1,0 +1,68 @@
+.repo {
+    background: #202022;
+    padding: 35px 30px 30px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.repo a {
+    text-decoration: none;
+}
+
+.repo p,
+.repo h4,
+.repo h3 {
+    color: #fff;
+    padding-left: 30px;
+} 
+
+.repo p {
+    letter-spacing: 2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    color: #949495;
+    text-transform: uppercase;
+}
+
+.repo h3 {
+    font-family: Gothic A1,-apple-system,BlinkMacSystemFont,Helvetica Neue,Arial,sans-serif;
+    font-size: 19px;
+}
+
+.repo h4 {
+    padding-left: 40px;
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.repo-info {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.repo-number {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 50px;
+}
+
+.repo-number svg {
+    margin-right: 10px;
+    float: left;
+}
+
+.repo-number h1 {
+    font-size: 12px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+}
+
+.repo:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}

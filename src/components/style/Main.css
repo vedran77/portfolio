@@ -1,0 +1,122 @@
+.aboutme {
+    float: left;
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 50%;
+}
+
+.aboutme img {
+    width: 200px;
+    height: 200px;
+}
+
+.aboutme .text {
+    width: 100%;
+}
+
+.aboutme .text h3 {
+    font-family: Gothic A1,-apple-system,BlinkMacSystemFont,Helvetica Neue,Arial,sans-serif;
+    font-size: 50px;
+    color: #D9D9D9;
+}
+
+.aboutme .text p {
+    padding-top: 30px;
+    font-family: Gothic A1,-apple-system,BlinkMacSystemFont,Helvetica Neue,Arial,sans-serif;
+    font-size: 20px;
+    color: #949495;
+}
+
+.aboutme .text span {
+    color: #CF3030;
+}
+
+.aboutme .social-media svg {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: .5s;
+}
+
+.aboutme .social-media svg:hover {
+    color: #CF3030;
+    transition: .5s;
+    cursor: pointer;
+}
+.projects {
+    float: right;
+    width: 40%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .aboutme {
+        width: 80%;
+    }
+
+    .aboutme .text h3 {
+        font-size: 30px;
+    }
+
+    .aboutme .text p {
+        font-size: 16px;
+    }
+
+    .aboutme img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .projects {
+        width: 80%;
+        float: none;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutme .text h3 {
+        font-size: 20px;
+    }
+
+    .aboutme .text p {
+        font-size: 13px;
+    }
+
+    .aboutme {
+        padding-left: 100px;
+    }
+
+    .aboutme img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .projects {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .aboutme .text h3 {
+        font-size: 15px;
+    }
+
+    .aboutme .text p {
+        font-size: 10px;
+    }
+
+    .aboutme {
+        padding-left: 50px;
+    }
+
+    .aboutme img {
+        width: 80px;
+        height: 80px;
+    }
+}
