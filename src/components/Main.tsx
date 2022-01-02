@@ -33,7 +33,7 @@ class Main extends React.Component {
       return (
         <>
             <div className="aboutme">
-                <img src='vedran.png' alt="logo"/>
+                <img src='https://raw.githubusercontent.com/vedran77/portfolio/main/public/vedran.png' alt="logo"/>
                 <div className="text">
                     <h3>Hello I’m <span>Vedran</span>.</h3>
                     <p>I currently live in Banja Luka, 

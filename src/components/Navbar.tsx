@@ -56,9 +56,9 @@ class Navbar extends React.Component {
           <div className='info'>
             <img className='v-image' src={this.state.img}/>
             <div className='status' style={{background: this.state.online}}/>
-            <div className='line'></div>
             {this.state.spotify && (
               <>
+                <div className='line'></div>
                 <img src={this.state.spotify.image} className='icon'/>
                 <div className='appinfo'>
                   <BsSpotify/>
@@ -68,11 +68,11 @@ class Navbar extends React.Component {
                   <h4>Currently listening to</h4>
                   <p>{this.state.spotify.song}</p>
                 </div>
-                <div className='line'></div>
               </>
             )}
             {this.state.vscode && (
               <>
+                <div className='line'></div>
                 <img src={this.state.vscode.image} className='icon'/>
                 <div className='appinfo'>
                   <BiCodeAlt/>

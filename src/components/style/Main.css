@@ -8,7 +8,7 @@
 .aboutme img {
     width: 200px;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .aboutme .text {
@@ -22,7 +22,7 @@
 }
 
 .aboutme .text p {
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: Gothic A1,-apple-system,BlinkMacSystemFont,Helvetica Neue,Arial,sans-serif;
     font-size: 20px;
     color: #949495;
@@ -36,7 +36,7 @@
     color: #fff;
     font-size: 30px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-right: 30px;
     transition: .5s;
 }
 
@@ -45,6 +45,7 @@
     transition: .5s;
     cursor: pointer;
 }
+
 .projects {
     float: right;
     width: 40%;
@@ -99,17 +100,17 @@
     }
 
     .projects {
-        margin-left: 50px;
+        margin-left: 10%;
     }
 }
 
 @media screen and (max-width: 530px) {
     .aboutme .text h3 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .aboutme .text p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .aboutme {
@@ -117,7 +118,7 @@
     }
 
     .aboutme img {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
 }
